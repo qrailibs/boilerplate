@@ -2,12 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
-
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -70,5 +64,11 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: theme("spacing.4");
   }
 }
