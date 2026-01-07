@@ -1,6 +1,0 @@
-{
-  "app": "Next.js v14",
-  "ui": "shadcn/ui + tailwind",
-  "db": "drizzle orm (supports postgres, mysql, sqlite)",
-  "auth": ""
-}
